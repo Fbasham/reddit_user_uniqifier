@@ -6,6 +6,8 @@ const nextConfig = {
     domains: [
       "i.redd.it",
       "i.imgur.com",
+      "redgifs.com",
+      "www.redgifs.com",
   ],
   },
 }

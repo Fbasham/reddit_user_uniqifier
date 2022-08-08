@@ -18,7 +18,7 @@ export default function Card({props}){
         </span>
       </div>
       <div className='relative w-64 mb-2 border-2 h-96 border-slate-800 rounded-xl hover:border-white focus-within:border-white'>
-        <a href={'https://old.reddit.com'+permalink} className='' target='_blank'>
+        <a href={'https://old.reddit.com'+permalink} target='_blank'>
           <Image src={url} objectFit='cover' layout='fill' className='rounded-xl'/>
         </a>
       </div>
